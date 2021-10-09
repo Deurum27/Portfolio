@@ -1,0 +1,45 @@
+.footer {
+    background-color: $color-skills-background;
+    color: $color-text;
+    padding-top: 93px;
+    padding-bottom: 189px;
+}
+
+.footer h2 {
+    margin-bottom: 52px;
+}
+
+.footer__row {
+    display: flex;
+}
+
+.footer__list {
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 0;
+}
+
+.footer__list-item {
+    width: 50%;
+}
+
+.contact {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer__list-link {
+    font-size: 1.8rem;
+    line-height: 1.22;
+}
+
+.footer__button {
+    position: fixed;
+    bottom: 70px;
+    right: 180px;
+    
+}
+

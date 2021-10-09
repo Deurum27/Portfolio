@@ -1,0 +1,77 @@
+.hero {
+    min-height: 100vh;
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding-top: 93px;
+    padding-bottom: 30px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2.4rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.header__list {
+    display: flex;
+    gap: 60px;
+}
+
+.header__list-link {
+    font-size: 1.8rem;
+    line-height: 1.22;
+}
+
+.header__list-link--active {
+    font-weight: bold;
+}
+
+.hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content__text {
+    font-size: 6.4rem;
+    line-height: 1.21;
+    margin-bottom: 26px;
+}
+
+.hero-content__paragraph {
+    font-size: 2.4rem;
+    line-height: 1.21;
+    margin-bottom: 106px;
+}
+
+.hero-content-works {
+    font-size: 1.8rem;
+    line-height: 1.22;
+    text-decoration: underline;
+}
+
+
+
+
+
+
